@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Registration Form Design</title> 
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+ </head> 
+ <body> 
+  <div class="contact-title"> 
+   <br> 
+  
+   <h1>Register to our courses</h1> 
+   <br> 
+  
+   <h2>We provides free learning materials for <br><br>
+     programming languages <br> <br>
+     like HTML, CSS, Java Script, PHP etc.</h2> 
+  </div> 
+  <br> 
+  <div class="btn-group"> 
+   <a class="btn-item" href="https://www.w3docs.com/learn-html.html">Learn HTML</a> 
+   <a class="btn-item" href="https://www.w3docs.com/quiz/#">Select Quiz</a> 
+  </div> 
+  <br>  
+  <form action="/"> 
+   <div class="title">
+    <h2>Register here</h2> 
+   </div> 
+   <div class="contact-form"> 
+    <form id="contact-form" method="post" action="Form handler.php">
+    <input name="name" type="text" class="form-control" placeholder="Your Name" required> 
+    <br> 
+    <input name="email" type="email" class="form-control" placeholder="Your Email ID" required> 
+    <br> 
+    <input name="phone" type="tel" class="form-control" placeholder="Your Phone No." required> 
+    <br>
+    <input name="password" type="password" class="form-control" placeholder="Password" row="5" required> 
+    <br> 
+    <input name="password" type="password" class="form-control" placeholder="Re-type Password" row="5" required>
+    <br> 
+    <br> 
+    <select> <option value="course-type" selected>Course type*</option> <option value="C++">C++</option> <option value="python">PYTHON</option> <option value="html">HTML</option> <option value="css">CSS</option> <option value="js">JAVASCRIPT</option> <option value="php">PHP</option> <option value="c programming">C Programming</option> </select> 
+  </div>
+   <br> 
+   <div class="checkbox"> 
+    <input type="checkbox" name="checkbox"> 
+    <span>I agree to the <a href="https://www.w3docs.com/privacy-policy">Privacy Policy </a></span> 
+   </div> 
+   <br> 
+   <input type="submit" class="form-control submit" value="Register Now"> 
+  </form> 
+ </body>
+</html>
