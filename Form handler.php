@@ -2,7 +2,7 @@
 $name=$_POST['name']; 
 $visitor_email=$_POST['email']; 
 $phone=$_POST['phone']; 
-$Course type=$_POST['course type']; 
+$course type=$_POST['course type']; 
 $email_from='yahoo123@gmail.com'; 
 $email_subject="New Form Submission"; 
 $email_body="User Name:$name.\n". 
